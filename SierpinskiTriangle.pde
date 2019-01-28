@@ -1,13 +1,13 @@
-	int limit = 100;
+int limit = 500;
 public void setup()
 {
-	size(200,200);
+	size(500,500);
  
 }
 public void draw()
 {
 	background(0);
-sierpinski(0,200,limit);
+sierpinski(0,500,limit);
 }
 public void mousePressed()//optional
 {
